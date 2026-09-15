@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#0a0e0c">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🖐️"
+        android:textSize="52sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="خطوة ١: امنح إذن الكاميرا"
+        android:textColor="#eaf2ec"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:lineSpacingExtra="6dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnCameraPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="السماح بالكاميرا"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تفعيل خدمة إمكانية الوصول"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="بعد التفعيل من الإعدادات: اقبض يدك ومدّ السبّابة وحدها لتتحكم بأي شاشة في الجهاز. لإيقاف التحكم، عطّل الخدمة من نفس القائمة."
+        android:textColor="#7c9488"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

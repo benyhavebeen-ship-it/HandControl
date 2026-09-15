@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.HandControl" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#4ee68a</item>
+        <item name="colorPrimaryDark">#0a0e0c</item>
+        <item name="colorAccent">#4ee68a</item>
+        <item name="android:windowBackground">#0a0e0c</item>
+    </style>
+</resources>

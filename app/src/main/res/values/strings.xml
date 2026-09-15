@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">تحكم باليد</string>
+    <string name="accessibility_service_description">
+        يتتبّع يدك عبر الكاميرا الأمامية. عندما تمدّ إصبع السبّابة فقط وتُبقي بقية
+        الأصابع مقبوضة، يتحوّل طرف إصبعك إلى مؤشر لمس حقيقي على الشاشة بالكامل.
+    </string>
+</resources>
